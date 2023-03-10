@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:wght@700&family=Libre+Caslon+Text&display=swap');
+*{
+    margin: 0;padding: 0;
+}
+body{
+    height: 100vh;
+    background-image: url(./Assets/pexels-maxyne-barcel-10402282\ 1.png) ;
+    background-color: grey;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+header{
+    display: flex;
+    margin: 0px 20px 20px 20px;
+}
+ul{
+    display: flex;
+    list-style: none;
+    font-family: 'Anybody', cursive;
+font-family: 'Libre Caslon Text', serif;
+}
+li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    padding: 9px;
+    color: #ffc233;
+}
+header img{
+    padding: 25px;
+    /* width: 200px; */
+    padding: 25px 60px;
+}
+header ul{
+    padding: 25px 302px;
+    
+}
+header button{
+    height: 34px;
+    width: 95px;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-weight: 900;
+    font-size: 15px;
+    background-color: #ff515f;
+    color: white;
+    border: none;
+    font-family: 'Anybody', cursive;
+    font-family: 'Libre Caslon Text', serif;
+}
+header button:hover{
+    border: white 2px solid;
+    color: #ef0909;
+    background-color: #e9dbdc;
+    cursor: pointer;
+}
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+main p{
+    color: #ffc233;
+    font-family: 'Righteous', cursive;
+    font-size: 80px;
+}
+main div{
+    display: flex;
+    flex-direction: column;
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
+}
+.first{
+    /* margin-left: 360px; */
+    display: flex;
+    justify-content: center;
+}
+.second{
+    display: flex;
+    justify-content: center;
+}
+.third{
+    display: flex;
+    justify-content: center;
+}
+.menu{
+    height: 44px;
+    width: 195px;
+    font-size: 15px;
+    font-weight: 900;
+    background-color: #ff515f;
+    color: white;
+    border: none;
+    font-family: 'Anybody', cursive;
+    font-family: 'Libre Caslon Text', serif;
+    margin-left: 670px;
+    margin-top: 20px;
+}
+.menu:hover{
+    border: white 2px solid;
+    color: #ef0909;
+    background-color: #e9dbdc;
+    cursor: pointer;
+}
+ul li a:hover{
+    color: #ef0909;
+    cursor: pointer;
+}
+#logo:hover{
+    cursor: pointer;
+}
